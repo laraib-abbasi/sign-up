@@ -45,17 +45,17 @@ export default function Navbar () {
         {/* Navigation Links (Desktop View) */}
         <ul className="hidden sm:flex items-center sm:mx-4 sm:font-bold sm:text-lg text-xs ">
           <li className="mx-3">
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li className="mx-3">
-            <a href="#about">About Us</a>
+            <Link href="#about">About Us</Link>
           </li>
           <li className="mx-3">
-            <a href="#contact">Contact Us</a>
+            <Link href="#contact">Contact Us</Link>
           </li>
           <div className="border-l border-blue-400 h-4"></div>
           <li className="mx-3">
-            <a href="/pages/login">Login</a>
+            <Link href="/pages/login">Login</Link>
           </li>
           <li><DarkMode/></li>
         </ul>
@@ -73,10 +73,10 @@ export default function Navbar () {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="">About Us</a>
+              <Link href="">About Us</Link>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <Link href="">Contact Us</Link>
             </li>
             <li>
               <Link href="/pages/login">Login</Link>
